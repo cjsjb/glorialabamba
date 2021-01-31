@@ -5,6 +5,7 @@
 \header {
 	title = "Gloria"
 	subtitle = "Bamba"
+	instrument = "Guía"
 	tagline = "Coro Juvenil San Juan Bosco"
 }
 #(set-global-staff-size 20)
@@ -17,11 +18,9 @@
 }
 global = {
 	\time 6/8
-	\skip 2.*108
 }
 globalTempo = {
 	\tempo 4 = 180
-	\skip 2.*108
 }
 \score {
 	<<
@@ -29,7 +28,9 @@ globalTempo = {
 		\override Score.NoteColumn #'force-hshift = #1.0
 
 		\include "glorialabamba-acordes.inc"
-		\include "glorialabamba-voz.inc"
+		\new StaffGroup <<
+			\include "glorialabamba-guia.inc"
+		>>
 
 	>>
 

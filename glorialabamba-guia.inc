@@ -1,13 +1,16 @@
-\context Staff = "voz" \with { \consists Ambitus_engraver } <<
+\context Staff = "guia" \with {
+	\consists Ambitus_engraver
+	fontSize = #-3
+	\override StaffSymbol #'staff-space = #(magstep -3)
+} <<
 	\set Staff.instrumentName = "Voz"
-	\set Staff.shortInstrumentName = "V."
-	\set Staff.midiInstrument = "Voice Oohs"
+	\set Staff.shortInstrumentName = ""
 	\set Score.skipBars = ##t
 	\set Staff.printKeyCancellation = ##f
 	\new Voice \global
 	\new Voice \globalTempo
 
-	\context Voice = "voz-voz" {
+	\context Voice = "guia" {
 		\override Voice.TextScript #'padding = #2.0
 		\override MultiMeasureRest #'expand-limit = 1
 
@@ -135,7 +138,7 @@
 		\bar "|."
 	}
 
-	\lyricsto "voz-voz" \new Lyrics \lyricmode {
+	\new Lyrics \lyricsto "guia" {
 		Glo -- "ria a" Dios en el cie -- lo __
 		y paz en la tie -- rra __
 		al hom -- bre que a -- ma el Se -- ñor,
