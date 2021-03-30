@@ -156,7 +156,7 @@
 		al hom -- bre que a -- ma el Se -- ñor,
 		al hom -- bre que a -- ma el Se -- ñor.
 
-		Se -- ñor Je -- sús, cor-- de -- ro de Dios __
+		Se -- ñor Je -- sús, cor -- de -- ro de Dios __
 		Hi -- jo del Pa -- dre, ten pie -- dad de no -- so -- tros
 		só -- lo tú e -- res el Sal -- va -- dor,
 		con el Es -- pí -- ri -- tu San -- "to en" "la u" -- ni -- dad.
