@@ -135,7 +135,7 @@
 		\bar "|."
 	}
 
-	\lyricsto "voz-tenor" \new Lyrics \lyricmode {
+	\new Lyrics \lyricsto "voz-tenor" {
 		Glo -- "ria a" Dios en el cie -- lo __
 		y paz en la tie -- rra __
 		al hom -- bre que a -- ma el Se -- ñor,

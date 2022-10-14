@@ -135,7 +135,7 @@
 		\bar "|."
 	}
 
-	\lyricsto "voz-soprano" \new Lyrics \lyricmode {
+	\new Lyrics \lyricsto "voz-soprano" {
 		Glo -- "ria a" Dios en el cie -- lo __
 		y paz en la tie -- rra __
 		al hom -- bre que a -- ma el Se -- ñor,
